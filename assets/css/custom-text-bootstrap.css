@@ -1,0 +1,25 @@
+
+.text-16-300 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.text-14-400-21 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+.text-20-400 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-500 {
+    font-weight: 500;
+}
+
+.text-600 {
+    font-weight: 600;
+}
