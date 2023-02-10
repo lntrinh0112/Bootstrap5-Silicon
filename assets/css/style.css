@@ -233,3 +233,17 @@ header {
 .text-white-hover:hover {
     color: var(--a-hover)!important;
 }
+
+.accordion-button,
+.accordion-button:hover {
+    box-shadow: none!important;
+}
+
+/* Price */
+.price-section {
+    background-color: var(--bg-sub);
+}
+
+.card-header,.card-body,.card-footer {
+    border-color: var(--text-primary);
+}
