@@ -1,87 +1,88 @@
 
-.text-16-300 {
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.text-16-400 {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.text-16-500 {
-    font-size: 16;
-    font-weight: 500;
-}
-
-.text-16-900 {
-    font-size: 16px;
-    font-weight: 900;
-}
 
 .text-14-300 {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 14px!important;
+    font-weight: 300!important;
 }
 
 .text-14-400 {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 14px!important;
+    font-weight: 400!important;
 }
 
 .text-14-400-21 {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    line-height: 21px!important;
 }
 
 .text-14-500 {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 14px!important;
+    font-weight: 500!important;
+}
+
+.text-16-300 {
+    font-size: 16px!important;
+    font-weight: 300!important;
+}
+
+.text-16-400 {
+    font-size: 16px!important;
+    font-weight: 400!important;
+}
+
+.text-16-500 {
+    font-size: 16px!important;
+    font-weight: 500!important;
+}
+
+.text-16-900 {
+    font-size: 16px!important;
+    font-weight: 900!important;
 }
 
 .text-20-300 {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 20px!important;
+    font-weight: 300!important;
 }
 
 .text-40-300 {
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 40px!important;
+    font-weight: 300!important;
 }
 
 .text-20-400 {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 20px!important;
+    font-weight: 400!important;
 }
 
 .text-20-500 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 20px!important;
+    font-weight: 500!important;
 }
 
 .text-24-500 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 24px!important;
+    font-weight: 500!important;
 }
 
 .text-40-500 {
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 40px!important;
+    font-weight: 500!important;
 }
 
 .text-48-500 {
-    font-size: 48px;
-    font-weight: 500;
+    font-size: 48px!important;
+    font-weight: 500!important;
 }
 
 .text-600 {
-    font-weight: 600;
+    font-weight: 600!important;
 }
 
 .text-28-600 {
-    font-size: 28px;
-    font-weight: 500;
+    font-size: 28px!important;
+    font-weight: 500!important;
 }
 
 .text-grey {
@@ -92,4 +93,7 @@
 }
 .text-muted {
     color: rgba(255,255,255,.7)!important;
+}
+.text-megamenu-link {
+    color: #424767!important;
 }

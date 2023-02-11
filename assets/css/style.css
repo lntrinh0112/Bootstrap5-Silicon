@@ -60,21 +60,40 @@ header {
     background-color: var(--bg-primary);
 }
 
-.navbar {
-
-}
-
 .navbar-nav .nav-link {
     color: var(--text-primary);
 }
 
-.nav-link-inner-text {
-    font-size: 16px;
-    font-weight: 400;
-}
-
 .nav-link-arrow {
     font-size: 10px;
+}
+
+.megamenu-link:hover {
+    color: #c33c54!important;
+}
+
+@media (min-width:540px) {
+    .dropdown-megamenu {
+        min-width: 540px;
+    }
+    .dropdown-megamenu-sm {
+        min-width: 420px;
+    }
+    
+}
+.col-auto {
+    width: auto;
+    max-width: 100%;
+}
+
+
+/* 
+.dropdown-toggle.show>.dropdown-toggle .nav-link {
+    transform: rotate(180deg);
+}  */
+
+.dropdown-toggle::after {
+    display: none;
 }
 
 /* Main */
@@ -86,9 +105,7 @@ header {
 }
 .fill-white {
     fill: #fff;
-
 }
-
 
 /* presentation-mockup */
 .pre-mockup__img {
