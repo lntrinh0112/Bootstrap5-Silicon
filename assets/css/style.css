@@ -247,3 +247,17 @@ header {
 .card-header,.card-body,.card-footer {
     border-color: var(--text-primary);
 }
+/* Footer */
+.footer {
+    background-color: var(--bg-primary);
+}
+.footer-links li a{
+    color: var(--text-primary);
+    cursor: pointer;
+    display: block;
+    padding: 5px;
+    margin-left: -5px;
+}
+.footer-links li a:hover {
+    color: var(--bg-btn-danger);
+}
