@@ -88,9 +88,7 @@
 .text-grey {
     color: #0d1b48!important;
 }
-.text-italic {
-    font-style: italic!important;
-}
+
 .text-muted {
     color: rgba(255,255,255,.7)!important;
 }

@@ -59,7 +59,9 @@ img {
 header {
     background-color: var(--bg-primary);
 }
-
+.navbar {
+    background: var(--bg-primary);
+}
 .navbar-nav .nav-link {
     color: var(--text-primary);
 }
@@ -81,16 +83,27 @@ header {
     }
     
 }
+
+@media (min-width:768px) {
+    .navbar-collapse.show {
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
+    }
+}
 .col-auto {
     width: auto;
     max-width: 100%;
 }
 
-
-/* 
-.dropdown-toggle.show>.dropdown-toggle .nav-link {
-    transform: rotate(180deg);
-}  */
+@media (max-width:768px) {
+    .navbar-collapse .navbar-nav {
+        background: #fff;
+    }
+    .navbar-collapse .navbar-nav .nav-item a span,
+    .navbar-collapse .navbar-nav .nav-item a i{
+        color: var(--bg-primary);
+    }
+}
 
 .dropdown-toggle::after {
     display: none;
